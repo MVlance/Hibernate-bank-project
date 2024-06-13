@@ -20,6 +20,7 @@ public class AddNewCards {
         try{
             session = factory.getCurrentSession();
             session.beginTransaction();
+            //just change this card_number to create a new card with balance 0. Note that card number should consist of 16 integers
             Card card = new Card("4240368249365062", 0);
             session.persist(card);
             session.getTransaction().commit();

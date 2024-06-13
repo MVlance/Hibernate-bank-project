@@ -90,7 +90,7 @@ public class Main {
 
                     System.out.println("Great!");
                     System.out.println("Items to sell: ");
-                    for (int i = 0; i < items.size(); i++) {
+                    for (int i = 0; i < items.size(); i++) { //printing all the items, quite upsetting though
                         System.out.println(i+1 + ". " + items.get(i).getName()); //prints all items in the database
                     }
 
